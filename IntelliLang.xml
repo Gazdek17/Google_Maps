@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="AIDL" injector-id="xml">
+      <display-name>RelativeLayout/@context</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("context")).withNamespace(string().equalTo("http://schemas.android.com/tools")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>intent-filter</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("intent-filter"))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>manifest</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("manifest"))]]></place>
+    </injection>
+  </component>
+</application>
